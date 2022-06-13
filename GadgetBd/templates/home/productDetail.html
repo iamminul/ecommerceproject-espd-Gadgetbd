@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Product Detail </title>
+</head>
+<body>
+
+    <h1> Product Detail Page </h1>
+    <h1> Product Id: {{ prod.pk }} </h1>
+    <h1> Product Name: {{ prod.prod_name }} </h1>
+    <h1> Product Price: {{ prod.prod_price }} </h1>
+    <h1> Product Description: {{ prod.prod_desc }} </h1>
+
+    <img src="{{ prod.prod_image.url }}" alt="Product Image">
+
+
+
+
+</body>
+</html>
